@@ -1,4 +1,28 @@
 .box {
     height: 507px;
-    background-color: rgb(21, 230, 63);
+    &_item {
+        width: 300px;
+        &_title {
+            font-size: 24.5px;
+            font-weight: bold;
+            line-height: 1.29;
+            text-align: left;
+            text-transform: uppercase;
+            color: #000;
+        }
+        &_subtitle {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.5;
+            text-align: left;
+            color: #283136;
+        }
+
+    }
+    &_flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+    }
   }
+

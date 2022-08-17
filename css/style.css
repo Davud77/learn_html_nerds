@@ -95,11 +95,40 @@ a {
   line-height: 1;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+.button_green {
+  background-color: #00ca74;
+}
+.button_yellou {
+  background-color: #efc84a;
 }
 
 .box {
   height: 507px;
-  background-color: rgb(21, 230, 63);
+}
+.box_item {
+  width: 300px;
+}
+.box_item_title {
+  font-size: 24.5px;
+  font-weight: bold;
+  line-height: 1.29;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000;
+}
+.box_item_subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #283136;
+}
+.box_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
 }
 
 .company {

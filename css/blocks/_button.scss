@@ -8,4 +8,11 @@
     line-height: 1;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+    &_green {
+        background-color: #00ca74;
+    }
+    &_yellou {
+        background-color: #efc84a;
+    }
 }
