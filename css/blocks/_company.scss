@@ -1,4 +1,9 @@
 .company {
     height: 180px;
-    background-color: rgb(230, 21, 77);
+    &_flex {
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
   }
