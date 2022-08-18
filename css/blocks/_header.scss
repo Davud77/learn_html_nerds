@@ -33,12 +33,12 @@
     }
     &_body {
         display: flex;
+        margin-top: 85px;
         &_item {
+            height: 800px;
             &_h1 {
-                width: 376px;
-                height: 106px;
-                margin: 85px 55px 28px 0;
-                font-family: Roboto;
+                margin: 0;
+                font-weight: bold;
                 font-size: 54px;
                 font-weight: 500;
                 font-stretch: normal;
@@ -48,11 +48,9 @@
                 text-align: left;
                 color: #000;
             }
-            &_h3 {
-                width: 361px;
-                height: 40px;
-                margin: 28px 1px 42px 0;
-                font-family: Roboto;
+            &_p {
+                margin-top: 28px;
+                margin-bottom: 42px;
                 font-size: 16px;
                 font-weight: normal;
                 font-stretch: normal;

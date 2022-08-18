@@ -1,5 +1,5 @@
 * {
-  font-family: "ptsans";
+  font-family: "roboto";
 }
 
 html, body {
@@ -12,9 +12,13 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   position: relative;
-  max-width: 1240px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -55,12 +59,14 @@ a {
 }
 .header_body {
   display: flex;
+  margin-top: 85px;
+}
+.header_body_item {
+  height: 800px;
 }
 .header_body_item_h1 {
-  width: 376px;
-  height: 106px;
-  margin: 85px 55px 28px 0;
-  font-family: Roboto;
+  margin: 0;
+  font-weight: bold;
   font-size: 54px;
   font-weight: 500;
   font-stretch: normal;
@@ -70,11 +76,9 @@ a {
   text-align: left;
   color: #000;
 }
-.header_body_item_h3 {
-  width: 361px;
-  height: 40px;
-  margin: 28px 1px 42px 0;
-  font-family: Roboto;
+.header_body_item_p {
+  margin-top: 28px;
+  margin-bottom: 42px;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -138,7 +142,81 @@ a {
 
 .whois {
   height: 525px;
-  background-color: rgb(21, 73, 230);
+}
+.whois_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.whois_item_title {
+  font-size: 45.5px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  color: #000;
+}
+.whois_item_subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #283136;
+}
+.whois_item_h4 {
+  margin-top: 45px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  color: #283136;
+}
+.whois_item_h4_logo {
+  text-align: center;
+}
+.whois_item_ul_li {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 15px;
+  color: #283136;
+}
+.whois_item_ul_li::marker {
+  color: #fb565a;
+}
+.whois_item_img {
+  width: 360px;
+  height: 208px;
+}
+.whois_item_statistic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.whois_item_statistic_persent {
+  width: 93px;
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 0.22;
+  text-align: left;
+  color: #000;
+}
+.whois_item_statistic_subpersent {
+  width: 93px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.13;
+  text-align: left;
+  color: #283136;
+}
+.whois_logo {
+  width: 360px;
+}
+.whois_text {
+  width: 700px;
 }
 
 .map {
@@ -152,12 +230,12 @@ a {
 }
 
 @font-face {
-  font-family: "ptsans";
-  src: url(/fonts/web/ptsans.woff) format("woff"), url(/fonts/web/ptsans.woff2) format("woff2");
+  font-family: "roboto";
+  src: url(/fonts/web/roboto.woff) format("woff"), url(/fonts/web/roboto.woff2) format("woff2");
   font-weight: 400;
 }
 @font-face {
-  font-family: "ptsansbold";
-  src: url(/fonts/web/ptsansbold.woff) format("woff"), url(/fonts/web/ptsansbold.woff2) format("woff2");
+  font-family: "robotobold";
+  src: url(/fonts/web/robotobold.woff) format("woff"), url(/fonts/web/robotobold.woff2) format("woff2");
   font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
