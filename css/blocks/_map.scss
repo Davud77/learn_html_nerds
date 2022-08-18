@@ -1,5 +1,36 @@
 .map  {
-    
     height: 416px;
-    background-color: rgb(37, 175, 221);
+    background-image: url(/img/Слой\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_box {
+        position: absolute;
+        top: 50px;
+        width: 319px;
+        height: 308px;
+        background-color: #fff;
+        &_title {
+            margin: 0;
+            padding-top: 50px;
+            text-align: center;
+            font-size: 17.5px;
+            font-weight: bold;
+            line-height: 1.8;
+            color: #000;
+        }
+        &_subtitle {
+            margin-top: 32px;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.13;
+            text-align: center;
+            color: #666;
+        }
+        &_marker {
+            position: absolute;
+            top: 90px;
+            right: 180px;
+        }
+    }
 }

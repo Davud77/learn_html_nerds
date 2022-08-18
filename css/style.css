@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "roboto";
 }
@@ -100,12 +101,18 @@ img {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .button_green {
   background-color: #00ca74;
 }
 .button_yellou {
   background-color: #efc84a;
+}
+.button_box {
+  display: block;
+  margin: 0 auto;
+  margin-top: 37px;
 }
 
 .box {
@@ -226,7 +233,39 @@ img {
 
 .map {
   height: 416px;
-  background-color: rgb(37, 175, 221);
+  background-image: url(/img/Слой\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.map_box {
+  position: absolute;
+  top: 50px;
+  width: 319px;
+  height: 308px;
+  background-color: #fff;
+}
+.map_box_title {
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 17.5px;
+  font-weight: bold;
+  line-height: 1.8;
+  color: #000;
+}
+.map_box_subtitle {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.13;
+  text-align: center;
+  color: #666;
+}
+.map_box_marker {
+  position: absolute;
+  top: 90px;
+  right: 180px;
 }
 
 .footer {

@@ -9,10 +9,16 @@
     text-align: center;
     color: #fff;
     cursor: pointer;
+    text-transform: uppercase;
     &_green {
         background-color: #00ca74;
     }
     &_yellou {
         background-color: #efc84a;
+    }
+    &_box {
+        display: block;
+        margin: 0 auto;
+        margin-top: 37px;
     }
 }
